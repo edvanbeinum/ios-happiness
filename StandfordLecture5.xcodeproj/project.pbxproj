@@ -15,6 +15,7 @@
 		64C68B6F156447B500DC7B0D /* HappinessAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C68B6E156447B500DC7B0D /* HappinessAppDelegate.m */; };
 		64C68B72156447B500DC7B0D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C68B70156447B500DC7B0D /* MainStoryboard.storyboard */; };
 		64C68B75156447B600DC7B0D /* HappinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C68B74156447B600DC7B0D /* HappinessViewController.m */; };
+		64C68B7D156448AC00DC7B0D /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C68B7C156448AC00DC7B0D /* FaceView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		64C68B5E156447B500DC7B0D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		64C68B60156447B500DC7B0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		64C68B62156447B500DC7B0D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		64C68B66156447B500DC7B0D /* StandfordLecture5-Info.plist */ = {isa = PBXFileReference; path = "StandfordLecture5-Info.plist"; sourceTree = "<group>"; };
+		64C68B66156447B500DC7B0D /* StandfordLecture5-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StandfordLecture5-Info.plist"; sourceTree = "<group>"; };
 		64C68B68156447B500DC7B0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		64C68B6A156447B500DC7B0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		64C68B6C156447B500DC7B0D /* StandfordLecture5-Prefix.pch */ = {isa = PBXFileReference; path = "StandfordLecture5-Prefix.pch"; sourceTree = "<group>"; };
-		64C68B6D156447B500DC7B0D /* HappinessAppDelegate.h */ = {isa = PBXFileReference; path = HappinessAppDelegate.h; sourceTree = "<group>"; };
+		64C68B6C156447B500DC7B0D /* StandfordLecture5-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StandfordLecture5-Prefix.pch"; sourceTree = "<group>"; };
+		64C68B6D156447B500DC7B0D /* HappinessAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HappinessAppDelegate.h; sourceTree = "<group>"; };
 		64C68B6E156447B500DC7B0D /* HappinessAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappinessAppDelegate.m; sourceTree = "<group>"; };
 		64C68B71156447B500DC7B0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		64C68B73156447B500DC7B0D /* HappinessViewController.h */ = {isa = PBXFileReference; path = HappinessViewController.h; sourceTree = "<group>"; };
+		64C68B73156447B500DC7B0D /* HappinessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HappinessViewController.h; sourceTree = "<group>"; };
 		64C68B74156447B600DC7B0D /* HappinessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappinessViewController.m; sourceTree = "<group>"; };
+		64C68B7B156448AC00DC7B0D /* FaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceView.h; sourceTree = "<group>"; };
+		64C68B7C156448AC00DC7B0D /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 				64C68B70156447B500DC7B0D /* MainStoryboard.storyboard */,
 				64C68B73156447B500DC7B0D /* HappinessViewController.h */,
 				64C68B74156447B600DC7B0D /* HappinessViewController.m */,
+				64C68B7B156448AC00DC7B0D /* FaceView.h */,
+				64C68B7C156448AC00DC7B0D /* FaceView.m */,
 				64C68B65156447B500DC7B0D /* Supporting Files */,
 			);
 			path = StandfordLecture5;
@@ -163,6 +168,7 @@
 				64C68B6B156447B500DC7B0D /* main.m in Sources */,
 				64C68B6F156447B500DC7B0D /* HappinessAppDelegate.m in Sources */,
 				64C68B75156447B600DC7B0D /* HappinessViewController.m in Sources */,
+				64C68B7D156448AC00DC7B0D /* FaceView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
